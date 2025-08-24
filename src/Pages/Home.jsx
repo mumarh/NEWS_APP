@@ -7,9 +7,9 @@ const Home = () => {
   const [search, setSearch] = useState("");
   const [isPending, startTransition] = useTransition();
 
-  const fetchNews = async (query) => {
+  const fetchNews = async (search) => {
     try {
-      const res = await Getapi(query);
+      const res = await Getapi(search);
       startTransition(() => {
         setNews(res.data.articles);
         console.log(res.data.articles);
