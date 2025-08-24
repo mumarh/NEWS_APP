@@ -7,7 +7,7 @@
 ## Table of Contents
 - [Features](#features)
 - [Technologies](#technologies)
-- [Demo](#demo)
+- [Screenshot](#screenshot)
 - [Folder Structure](#folder-structure)
 - [Author](#author)
 - [License](#license)
@@ -36,8 +36,10 @@
 
 ---
 
-## Demo
-[🌐 Demo Link](http://your-news-app-demo-link.netlify.app)
+## Screenshot
+![Home Page](public/screenshot.png)
+
+
 
 ---
 
